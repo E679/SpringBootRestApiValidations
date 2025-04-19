@@ -5,15 +5,12 @@ Use the below URLs to perform CRUD Operations,
 i) Post-> Create Entry-- Use POST end point
 	localhost:9393/api/shop/signup
 	Body Payload:
-	{
-   	  "acctID": "1",
-	"custName": "Supreeth",
-	"city": "Hyderabad",
-	"state": "TS",
-	"country": "India",
-	"phoneNo": "12345",
-	"password": "Supreeth123"
-	}
+{
+"itemName": "bell",
+"gst": "22",
+"itemPrice": "4668",
+"expdate": "23-04-2026"
+}
 
 ii) GetAll-Use GET endpoint
      Get all -> localhost:9393/api/mypage/fetchAll
@@ -26,3 +23,6 @@ iv)Update user details if id exists->Use PUT endpoint
 
 v)Delete user details using userId->Use DELETE endpoint
    localhost:9393/api/mypage/1
+
+Swagger-ui:
+http://localhost:9393/swagger-ui.html
